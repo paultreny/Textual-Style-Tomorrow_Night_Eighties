@@ -43,6 +43,11 @@ body[viewtype=channel] div#body_home {
 	padding: 2px 5px 2px 5px;
 }
 
+.sender {
+	cursor: pointer;
+	font-weight: 700;
+}
+
 body[dir=rtl] .sender {
 	display: inline-block;
 }
@@ -185,16 +190,11 @@ div[id=mark] {
 
 div[ltype*=notice] .sender {
 	color: #f00;
-	font-weight: 700;
 }
 
 /* @end */
 
 /* @group Selected User */
-
-.sender {
-	cursor: pointer;
-}
 
 .line[ltype*=privmsg]:not(.selectedUser),
 .line[ltype*=action]:not(.selectedUser) {
@@ -243,7 +243,6 @@ div[ltype*=privmsg][mtype*=myself] .message {
 }
 
 div[ltype*=privmsg] .sender {
-	font-weight: 700;
 	white-space: pre-wrap;
 }
 
@@ -257,10 +256,6 @@ div[ltype*=privmsg] .sender {
 
 div[ltype*="action"] .message {
 	color: #000;
-}
-
-div[ltype*=action] .sender {
-	font-weight: 700;
 }
 
 div[ltype*=action] .sender:before {
