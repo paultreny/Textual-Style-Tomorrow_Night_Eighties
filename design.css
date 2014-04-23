@@ -410,9 +410,17 @@ body[dir=rtl] div[ltype*=nick] .message:before {
 
 /* @end */
 
-body div[ltype*=privmsg] .sender[mtype*=myself] {
-	color: #ea0d68;
+/* @group Own Messages */
+
+.sender[mtype*=myself] {
+	color: #4271AE; /* Tomorrow: Blue */
 }
+
+div[mtype*=myself] {
+	background-color: rgba(187, 218, 255, 0.25); /* Tomorrow Night Blue: Blue 25% */
+}
+
+/* @end */
 
 /* @group Nickname Colors */
 
