@@ -97,15 +97,15 @@ body[dir=rtl] .time {
 /* @group Links */
 
 a {
-	color: #00e;
-	border-color: #00e;
+	color: #4271AE; /* Tomorrow: Blue */
+	border-color: #4271AE; /* Tomorrow: Blue */
 	text-decoration: none;
 	border-bottom: dotted 1px;
 }
 
 a:hover {
-	color: #0080FF;
-	border-color: #0080FF;
+	color: #8959A8; /* Tomorrow: Purple */
+	border-color: #8959A8; /* Tomorrow: Purple */
 }
 
 /* @end */
