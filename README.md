@@ -2,7 +2,7 @@
 
 ## About
 
-This  is a style for the [Textual IRC clien](http://www.codeux.com/textual/).
+This  is a style for the [Textual IRC client](http://www.codeux.com/textual/).
 It is based on the [Tomorrow](https://github.com/ChrisKempson/Tomorrow-Theme) and [base16](https://github.com/chriskempson/base16) colour themes of *Chris Kempson* and the default *Simplified* Style bundled with Textual as of version 4.1.4.
 
 The main intention of this style is to emphasise important / interesting lines and move unimportant into the background without hiding information.
