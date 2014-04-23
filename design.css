@@ -208,16 +208,12 @@ div[id=mark] {
 
 /* @group PRIVMSG */
 
-.line[ltype*=privmsg][highlight=false] {
-	background-color: none;
-}
-
 .line[ltype*=privmsg][highlight=true],
 .line[ltype*=action][highlight=true] {
 	z-index: 191;
 	position: relative;
 	font-weight: normal;
-	background-color: #FAF4AF !important;
+	background-color: rgba(255, 157, 164, 0.25) !important; /* Tomorrow Night Blue: Red 25% */
 }
 
 div[ltype*=privmsg] .sender {
