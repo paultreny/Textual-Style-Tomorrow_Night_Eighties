@@ -263,11 +263,6 @@ div[ltype*=action] .sender {
 	font-weight: 700;
 }
 
-div[ltype*=action][mtype*=myself] .sender,
-div[ltype*=action][mtype*=myself] .message {
-	color: #B52CF6;
-}
-
 div[ltype*=action] .sender:before {
 	content: "\2022";
 }
