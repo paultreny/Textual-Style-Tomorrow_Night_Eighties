@@ -182,14 +182,10 @@ div[id=mark] {
 .line[ltype*=ctcp],
 .line[ltype*=notice],
 .line[ltype*=wallops] {
-	color: #f00;
+	color: #EAB700; /* Tomorrow: Yellow */
 	z-index: 191;
-	background: #fcc;
+	background-color: rgba(255, 238, 173, 0.25); /* Tomorrow Night Blue: Yellow 25% */
 	position: relative;
-}
-
-div[ltype*=notice] .sender {
-	color: #f00;
 }
 
 /* @end */
