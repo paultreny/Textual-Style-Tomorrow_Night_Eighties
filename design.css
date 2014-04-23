@@ -280,7 +280,6 @@ body[dir=ltr] div[ltype*=action] .sender:before {
 
 body[dir=ltr] div[ltype*=action] .sender:after {
 	content: "";
-	/* margin-right: 0.4em; */
 }
 
 body[dir=rtl] div[ltype*=action] .sender:before {
@@ -290,7 +289,6 @@ body[dir=rtl] div[ltype*=action] .sender:before {
 
 body[dir=rtl] div[ltype*=action] .sender:after {
 	content: "";
-	/* margin-left: 0.4em; */
 }
 
 /* DEBUG/INVITE */
@@ -360,7 +358,6 @@ body div.line[ltype*=website] {
 body[dir=ltr] div[ltype*=join] .message:before {
 	content: "→";
 	color: #0c0;
-	/* margin-right: 0.4em; */
 }
 
 body[dir=ltr] div[ltype*=kick] .message:before,
@@ -368,19 +365,16 @@ body[dir=ltr] div[ltype*=part] .message:before,
 body[dir=ltr] div[ltype*=quit] .message:before {
 	content: "←";
 	color: #e00;
-	/* margin-right: 0.4em; */
 }
 
 body[dir=ltr] div[ltype*=nick] .message:before {
 	content:"•";
 	color: #0c0;
-	/* margin-right: 0.4em; */
 }
 
 body[dir=rtl] div[ltype*=join] .message:before {
 	content: "→";
 	color: #0c0;
-	/* margin-left: 0.4em; */
 }
 
 body[dir=rtl] div[ltype*=kick] .message:before,
@@ -388,13 +382,11 @@ body[dir=rtl] div[ltype*=part] .message:before,
 body[dir=rtl] div[ltype*=quit] .message:before {
 	content: "←";
 	color: #e00;
-	/* margin-left: 0.4em; */
 }
 
 body[dir=rtl] div[ltype*=nick] .message:before {
 	content:"•";
 	color: #0c0;
-	/* margin-left: 0.4em; */
 }
 
 /* Nickname Colors */
