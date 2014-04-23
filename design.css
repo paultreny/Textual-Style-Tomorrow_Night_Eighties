@@ -424,158 +424,158 @@ div[mtype*=myself] {
 
 /* @group Nickname Colors */
 
-body .sender[mtype*=normal][colornumber='0'],
-body .inline_nickname[colornumber='0'] {
+.sender[mtype*=normal][colornumber='0'],
+.inline_nickname[colornumber='0'] {
 	color: #C82829; /* Tomorrow: Red */
 }
 
-body .sender[mtype*=normal][colornumber='1'],
-body .inline_nickname[colornumber='1'] {
+.sender[mtype*=normal][colornumber='1'],
+.inline_nickname[colornumber='1'] {
 	color: #F5871F; /* Tomorrow: Orange */
 }
 
-body .sender[mtype*=normal][colornumber='2'],
-body .inline_nickname[colornumber='2'] {
+.sender[mtype*=normal][colornumber='2'],
+.inline_nickname[colornumber='2'] {
 	color: #EAB700; /* Tomorrow: Yellow */
 }
 
-body .sender[mtype*=normal][colornumber='3'],
-body .inline_nickname[colornumber='3'] {
+.sender[mtype*=normal][colornumber='3'],
+.inline_nickname[colornumber='3'] {
 	color: #718C00; /* Tomorrow: Green */
 }
 
-body .sender[mtype*=normal][colornumber='4'],
-body .inline_nickname[colornumber='4'] {
+.sender[mtype*=normal][colornumber='4'],
+.inline_nickname[colornumber='4'] {
 	color: #3E999F; /* Tomorrow: Aqua */
 }
 
-body .sender[mtype*=normal][colornumber='5'],
-body .inline_nickname[colornumber='5'] {
+.sender[mtype*=normal][colornumber='5'],
+.inline_nickname[colornumber='5'] {
 	color: #8959A8; /* Tomorrow: Purple */
 }
 
-body .sender[mtype*=normal][colornumber='6'],
-body .inline_nickname[colornumber='6'] {
+.sender[mtype*=normal][colornumber='6'],
+.inline_nickname[colornumber='6'] {
 	color: #F2777A; /* Tomorrow Night Eighties: Red */
 }
 
-body .sender[mtype*=normal][colornumber='7'],
-body .inline_nickname[colornumber='7'] {
+.sender[mtype*=normal][colornumber='7'],
+.inline_nickname[colornumber='7'] {
 	color: #F99157; /* Tomorrow Night Eighties: Orange */
 }
 
-body .sender[mtype*=normal][colornumber='8'],
-body .inline_nickname[colornumber='8'] {
+.sender[mtype*=normal][colornumber='8'],
+.inline_nickname[colornumber='8'] {
 	color: #FFCC66; /* Tomorrow Night Eighties: Yellow */
 }
 
-body .sender[mtype*=normal][colornumber='9'],
-body .inline_nickname[colornumber='9'] {
+.sender[mtype*=normal][colornumber='9'],
+.inline_nickname[colornumber='9'] {
 	color: #99CC99; /* Tomorrow Night Eighties: Green */
 }
 
-body .sender[mtype*=normal][colornumber='10'],
-body .inline_nickname[colornumber='10'] {
+.sender[mtype*=normal][colornumber='10'],
+.inline_nickname[colornumber='10'] {
 	color: #66CCCC; /* Tomorrow Night Eighties: Aqua */
 }
 
-body .sender[mtype*=normal][colornumber='11'],
-body .inline_nickname[colornumber='11'] {
+.sender[mtype*=normal][colornumber='11'],
+.inline_nickname[colornumber='11'] {
 	color: #CC99CC; /* Tomorrow Night Eighties: Purple */
 }
 
-body .sender[mtype*=normal][colornumber='12'],
-body .inline_nickname[colornumber='12'] {
+.sender[mtype*=normal][colornumber='12'],
+.inline_nickname[colornumber='12'] {
 	color: #D54E53; /* Tomorrow Night Bright: Red */
 }
 
-body .sender[mtype*=normal][colornumber='13'],
-body .inline_nickname[colornumber='13'] {
+.sender[mtype*=normal][colornumber='13'],
+.inline_nickname[colornumber='13'] {
 	color: #E78C45; /* Tomorrow Night Bright: Orange */
 }
 
-body .sender[mtype*=normal][colornumber='14'],
-body .inline_nickname[colornumber='14'] {
+.sender[mtype*=normal][colornumber='14'],
+.inline_nickname[colornumber='14'] {
 	color: #E7C547; /* Tomorrow Night Bright: Yellow */
 }
 
-body .sender[mtype*=normal][colornumber='15'],
-body .inline_nickname[colornumber='15'] {
+.sender[mtype*=normal][colornumber='15'],
+.inline_nickname[colornumber='15'] {
 	color: #B9CA4A; /* Tomorrow Night Bright: Green */
 }
 
-body .sender[mtype*=normal][colornumber='16'],
-body .inline_nickname[colornumber='16'] {
+.sender[mtype*=normal][colornumber='16'],
+.inline_nickname[colornumber='16'] {
 	color: #70C0B1; /* Tomorrow Night Bright: Aqua */
 }
 
-body .sender[mtype*=normal][colornumber='17'],
-body .inline_nickname[colornumber='17'] {
+.sender[mtype*=normal][colornumber='17'],
+.inline_nickname[colornumber='17'] {
 	color: #C397D8; /* Tomorrow Night Bright: Purple */
 }
 
-body .sender[mtype*=normal][colornumber='18'],
-body .inline_nickname[colornumber='18'] {
+.sender[mtype*=normal][colornumber='18'],
+.inline_nickname[colornumber='18'] {
 	color: #AC4142; /* base16: Red */
 }
 
-body .sender[mtype*=normal][colornumber='19'],
-body .inline_nickname[colornumber='19'] {
+.sender[mtype*=normal][colornumber='19'],
+.inline_nickname[colornumber='19'] {
 	color: #D28445; /* base16: Orange */
 }
 
-body .sender[mtype*=normal][colornumber='20'],
-body .inline_nickname[colornumber='20'] {
+.sender[mtype*=normal][colornumber='20'],
+.inline_nickname[colornumber='20'] {
 	color: #F4Bf75; /* base16: Yellow */
 }
 
-body .sender[mtype*=normal][colornumber='21'],
-body .inline_nickname[colornumber='21'] {
+.sender[mtype*=normal][colornumber='21'],
+.inline_nickname[colornumber='21'] {
 	color: #90A959; /* base16: Green */
 }
 
-body .sender[mtype*=normal][colornumber='22'],
-body .inline_nickname[colornumber='22'] {
+.sender[mtype*=normal][colornumber='22'],
+.inline_nickname[colornumber='22'] {
 	color: #75B5AA; /* base16: Aqua */
 }
 
-body .sender[mtype*=normal][colornumber='23'],
-body .inline_nickname[colornumber='23'] {
+.sender[mtype*=normal][colornumber='23'],
+.inline_nickname[colornumber='23'] {
 	color: #AA750F; /* base16: Purple */
 }
 
-body .sender[mtype*=normal][colornumber='24'],
-body .inline_nickname[colornumber='24'] {
+.sender[mtype*=normal][colornumber='24'],
+.inline_nickname[colornumber='24'] {
 	color: #CC6666; /* Tomorrow Night: Red */
 }
 
-body .sender[mtype*=normal][colornumber='25'],
-body .inline_nickname[colornumber='25'] {
+.sender[mtype*=normal][colornumber='25'],
+.inline_nickname[colornumber='25'] {
 	color: #DE935F; /* Tomorrow Night: Orange */
 }
 
-body .sender[mtype*=normal][colornumber='26'],
-body .inline_nickname[colornumber='26'] {
+.sender[mtype*=normal][colornumber='26'],
+.inline_nickname[colornumber='26'] {
 	color: #F0C674; /* Tomorrow Night: Yellow */
 }
 
-body .sender[mtype*=normal][colornumber='27'],
-body .inline_nickname[colornumber='27'] {
+.sender[mtype*=normal][colornumber='27'],
+.inline_nickname[colornumber='27'] {
 	color: #B5BD68; /* Tomorrow Night: Green */
 }
 
-body .sender[mtype*=normal][colornumber='28'],
-body .inline_nickname[colornumber='28'] {
+.sender[mtype*=normal][colornumber='28'],
+.inline_nickname[colornumber='28'] {
 	color: #8ABEB7; /* Tomorrow Night: Aqua */
 }
 
-body .sender[mtype*=normal][colornumber='29'],
-body .inline_nickname[colornumber='29'] {
+.sender[mtype*=normal][colornumber='29'],
+.inline_nickname[colornumber='29'] {
 	color: #B294BB; /* Tomorrow Night: Purple */
 }
 
-body .sender[mtype*=normal][colornumber='30'],
-body .inline_nickname[colornumber='30'] {
+.sender[mtype*=normal][colornumber='30'],
+.inline_nickname[colornumber='30'] {
 	color: #BBDAFF; /* Tomorrow Night Blue: Blue */
 }
 
