@@ -17,7 +17,9 @@ The main intention of this style is to emphasise important / interesting lines a
 
 Install the files according to the [Styles Documentation of Textual](http://www.codeux.com/textual/wiki/Styles.wiki)
 
-	cd ~/Library/Containers/com.codeux.irc.textual/Data/Library/Application Support/Textual IRC/Styles/
-	git clone https://github.com/FroZnShiva/Textual-Style-Tomorrow.git Tomorrow
+```sh
+cd ~/Library/Containers/com.codeux.irc.textual/Data/Library/Application Support/Textual IRC/Styles/
+git clone https://github.com/FroZnShiva/Textual-Style-Tomorrow.git Tomorrow
+```
 
 Then just open the Preferences of Textual (`⌘,`) go to *Styles* and select **Tomorrow**.
