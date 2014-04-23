@@ -410,10 +410,6 @@ body[dir=rtl] div[ltype*=nick] .message:before {
 
 /* @end */
 
-body .inline_nickname {
-	font-weight: 700;
-}
-
 body div[ltype*=privmsg] .sender[mtype*=myself] {
 	color: #ea0d68;
 }
