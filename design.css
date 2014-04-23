@@ -49,6 +49,8 @@ body[dir=rtl] .sender {
 
 /* @end */
 
+/* @group Misc */
+
 body div#loading_screen {
 	position:absolute;
 	top: 50%;
@@ -67,6 +69,17 @@ body div#loading_screen {
 	-webkit-transition: opacity 0.8s linear;
 }
 
+.encryptionLock img {
+	float: right;
+	margin: 0;
+	padding: 0;
+	height: 11px;
+	margin-top: 2px;
+	padding-left: 10px;
+}
+
+/* @end */
+
 /* @group Time */
 
 .time {
@@ -80,15 +93,6 @@ body[dir=rtl] .time {
 }
 
 /* @end */
-
-.encryptionLock img {
-	float: right;
-	margin: 0;
-	padding: 0;
-	height: 11px;
-	margin-top: 2px;
-	padding-left: 10px;
-}
 
 /* @group Links */
 
