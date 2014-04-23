@@ -353,7 +353,7 @@ div[ltype*=quit] .message:before {
 }
 
 div[ltype*=nick] .message:before {
-	content:"•";
+	content:"◦";
 	color: #0c0;
 }
 
