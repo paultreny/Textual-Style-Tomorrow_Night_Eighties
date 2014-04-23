@@ -23,7 +23,7 @@ body {
 	font-family: "Lucida Grande";
 }
 
-body div#body_home {
+#body_home {
 	left: 0;
 	right: 0;
 	bottom: 0;
@@ -39,7 +39,7 @@ body[viewtype=channel] div#body_home {
 	max-height: 96.5%;
 }
 
-body .line {
+.line {
 	margin-top: -1px;
 }
 
@@ -51,7 +51,7 @@ body[dir=rtl] .sender {
 
 /* @group Misc */
 
-body div#loading_screen {
+#loading_screen {
 	position:absolute;
 	top: 50%;
 	left: 50%;
@@ -174,9 +174,9 @@ div[id=mark] {
 
 /* @group NOTICE / CTCP / WALLOPS */
 
-body div.line[ltype*=ctcp],
-body div.line[ltype*=notice],
-body div.line[ltype*=wallops] {
+.line[ltype*=ctcp],
+.line[ltype*=notice],
+.line[ltype*=wallops] {
 	color: #f00;
 	z-index: 191;
 	background: #fcc;
@@ -186,7 +186,7 @@ body div.line[ltype*=wallops] {
 	border-bottom: 1px solid #f77;
 }
 
-body div[ltype*=notice] .sender {
+div[ltype*=notice] .sender {
 	color: #f00;
 	font-weight: 700;
 }
@@ -199,23 +199,23 @@ body div[ltype*=notice] .sender {
 	cursor: pointer;
 }
 
-body div.line[ltype*=privmsg]:not(.selectedUser),
-body div.line[ltype*=action]:not(.selectedUser) {
+.line[ltype*=privmsg]:not(.selectedUser),
+.line[ltype*=action]:not(.selectedUser) {
 	transition-property: border-top, border-bottom, background-color;
 	transition-duration: 0.5s, 0.5s, 0.5s;
 }
 
-body div.line[ltype*=privmsg] .time:not(.selectedUser),
-body div.line[ltype*=action] .time:not(.selectedUser) {
+.line[ltype*=privmsg] .time:not(.selectedUser),
+.line[ltype*=action] .time:not(.selectedUser) {
 	transition: color 0.5s;
 }
 
-body div.line.selectedUser[highlight=false] .time {
+.line.selectedUser[highlight=false] .time {
 	transition: color 0.5s ease-in;
 	color: #000;
 }
 
-body div.line.selectedUser[highlight=false] {
+.line.selectedUser[highlight=false] {
 	transition-property: border-top, border-bottom, background-color;
 	transition-duration: 0.5s, 0.5s, 0.5s;
 	z-index: 190;
@@ -229,15 +229,15 @@ body div.line.selectedUser[highlight=false] {
 
 /* @group PRIVMSG */
 
-body div.line[ltype*=privmsg][highlight=false] {
+.line[ltype*=privmsg][highlight=false] {
 	padding: 2px 5px 2px 5px;
 	border-top: 1px solid transparent;
 	border-bottom: 1px solid transparent;
 	background-color: none;
 }
 
-body div.line[ltype*=privmsg][highlight=true],
-body div.line[ltype*=action][highlight=true] {
+.line[ltype*=privmsg][highlight=true],
+.line[ltype*=action][highlight=true] {
 	z-index: 191;
 	position: relative;
 	font-weight: normal;
@@ -247,15 +247,15 @@ body div.line[ltype*=action][highlight=true] {
 	background-color: #FAF4AF !important;
 }
 
-body div[ltype*="privmsg"] .message {
+div[ltype*="privmsg"] .message {
 	color: #000;
 }
 
-body div[ltype*=privmsg][mtype*=myself] .message {
+div[ltype*=privmsg][mtype*=myself] .message {
 	color: #000;
 }
 
-body div[ltype*=privmsg] .sender {
+div[ltype*=privmsg] .sender {
 	font-weight: 700;
 	white-space: pre-wrap;
 }
@@ -264,23 +264,23 @@ body div[ltype*=privmsg] .sender {
 
 /* @group ACTION */
 
-body div.line[ltype*=action] {
+.line[ltype*=action] {
 	padding: 2px 5px 2px 5px;
 	border-top: 1px solid transparent;
 	border-bottom: 1px solid transparent;
 	background-color: none;
 }
 
-body div[ltype*="action"] .message {
+div[ltype*="action"] .message {
 	color: #000;
 }
 
-body div[ltype*=action] .sender {
+div[ltype*=action] .sender {
 	font-weight: 700;
 }
 
-body div[ltype*=action][mtype*=myself] .sender,
-body div[ltype*=action][mtype*=myself] .message {
+div[ltype*=action][mtype*=myself] .sender,
+div[ltype*=action][mtype*=myself] .message {
 	color: #B52CF6;
 }
 
@@ -304,10 +304,10 @@ div[ltype*=action] .sender:after {
 
 /* @group DEBUG / INVITE */
 
-body div.line[ltype*=invite],
-body div.line[ltype*=debug],
-body div.line[ltype*=rawhtml],
-body div.line[ltype*=dccfiletransfer] {
+.line[ltype*=invite],
+.line[ltype*=debug],
+.line[ltype*=rawhtml],
+.line[ltype*=dccfiletransfer] {
 	color: #777;
 	z-index: 190;
 	background: #eee;
@@ -325,33 +325,33 @@ body div.line[ltype*=dccfiletransfer] {
  * 372, 375, 376 are normal MOTD shared by several IRCds.
  */
 
-body div.line[command="372"],
-body div.line[command="721"] {
+.line[command="372"],
+.line[command="721"] {
 	border: none;
 	padding-top: 3px;
 	padding-bottom: 3px;
 }
 
-body div.line[command="375"],
-body div.line[command="720"] { /* Start. */
+.line[command="375"],
+.line[command="720"] { /* Start. */
 	border-bottom: none;
 	padding-top: 2px;
 	padding-bottom: 3px;
 }
 
-body div.line[command="376"],
-body div.line[command="722"] { /* End. */
+.line[command="376"],
+.line[command="722"] { /* End. */
 	border-top: none;
 	padding-top: 3px;
 	padding-bottom: 3px;
 }
 
-body div.line[command="372"] .message,
-body div.line[command="375"] .message,
-body div.line[command="376"] .message
-body div.line[command="720"] .message,
-body div.line[command="721"] .message,
-body div.line[command="722"] .message {
+.line[command="372"] .message,
+.line[command="375"] .message,
+.line[command="376"] .message
+.line[command="720"] .message,
+.line[command="721"] .message,
+.line[command="722"] .message {
 	font-family: "Menlo" !important;
 }
 
@@ -359,15 +359,15 @@ body div.line[command="722"] .message {
 
 /* @group General Events */
 
-body div.line[ltype*=join],
-body div.line[ltype*=part],
-body div.line[ltype*=kick],
-body div.line[ltype*=quit],
-body div.line[ltype*=kill],
-body div.line[ltype*=nick],
-body div.line[ltype*=mode],
-body div.line[ltype*=topic],
-body div.line[ltype*=website] {
+.line[ltype*=join],
+.line[ltype*=part],
+.line[ltype*=kick],
+.line[ltype*=quit],
+.line[ltype*=kill],
+.line[ltype*=nick],
+.line[ltype*=mode],
+.line[ltype*=topic],
+.line[ltype*=website] {
 	padding: 3px 5px 3px 5px;
 	color: #aaa;
 }
