@@ -505,6 +505,146 @@ div[mtype*=myself] {
 
 /* @end */
 
+/* @group mIRC Color Codes */
+
+/* @group Foreground Colors */
+
+.effect[color-number='0'] {
+	color: #D6D6D6 !important; /* Tomorrow: Selection */
+}
+
+.effect[color-number='1'] {
+	color: #4D4D4C !important; /* Tomorrow: Foreground */
+}
+
+.effect[color-number='2'] {
+	color: #4271AE !important; /* Tomorrow: Blue */
+}
+
+.effect[color-number='3'] {
+	color: #718C00 !important; /* Tomorrow: Green */
+}
+
+.effect[color-number='4'] {
+	color: #C82829 !important; /* Tomorrow: Red */
+}
+
+.effect[color-number='5'] {
+	color: #DE935F !important; /* Tomorrow Night: Red */
+}
+
+.effect[color-number='6'] {
+	color: #8959A8 !important; /* Tomorrow: Purple */
+}
+
+.effect[color-number='7'] {
+	color: #F5871F !important; /* Tomorrow: Orange */
+}
+
+.effect[color-number='8'] {
+	color: #EAB700 !important; /* Tomorrow: Yellow */
+}
+
+.effect[color-number='9'] {
+	color: #B9CA4A !important; /* Tomorrow Night Bright: Green */
+}
+
+.effect[color-number='10'] {
+	color: #3E999F !important; /* Tomorrow: Aqua */
+}
+
+.effect[color-number='11'] {
+	color: #66CCCC !important; /* Tomorrow Night Eighties: Aqua */
+}
+
+.effect[color-number='12'] {
+	color: #7AA6DA !important; /* Tomorrow Night Bright: Blue */
+}
+
+.effect[color-number='13'] {
+	color: #C397D8 !important; /* Tomorrow Night Bright: Purple */
+}
+
+.effect[color-number='14'] {
+	color: #8E908C !important; /* Tomorrow: Comment */
+}
+
+.effect[color-number='15'] {
+	color: #C5C8C6 !important; /* Tomorrow Night: Foreground */
+}
+
+/* @end */
+
+/* @group Background Colors */
+
+.effect[bgcolor-number='0'] {
+	background-color: #D6D6D6 !important; /* Tomorrow: Selection */
+}
+
+.effect[bgcolor-number='1'] {
+	background-color: #4D4D4C !important; /* Tomorrow: Foreground */
+}
+
+.effect[bgcolor-number='2'] {
+	background-color: #4271AE !important; /* Tomorrow: Blue */
+}
+
+.effect[bgcolor-number='3'] {
+	background-color: #718C00 !important; /* Tomorrow: Green */
+}
+
+.effect[bgcolor-number='4'] {
+	background-color: #C82829 !important; /* Tomorrow: Red */
+}
+
+.effect[bgcolor-number='5'] {
+	background-color: #DE935F !important; /* Tomorrow Night: Red */
+}
+
+.effect[bgcolor-number='6'] {
+	background-color: #8959A8 !important; /* Tomorrow: Purple */
+}
+
+.effect[bgcolor-number='7'] {
+	background-color: #F5871F !important; /* Tomorrow: Orange */
+}
+
+.effect[bgcolor-number='8'] {
+	background-color: #EAB700 !important; /* Tomorrow: Yellow */
+}
+
+.effect[bgcolor-number='9'] {
+	background-color: #B9CA4A !important; /* Tomorrow Night Bright: Green */
+}
+
+.effect[bgcolor-number='10'] {
+	background-color: #3E999F !important; /* Tomorrow: Aqua */
+}
+
+.effect[bgcolor-number='11'] {
+	background-color: #66CCCC !important; /* Tomorrow Night Eighties: Aqua */
+}
+
+.effect[bgcolor-number='12'] {
+	background-color: #7AA6DA !important; /* Tomorrow Night Bright: Blue */
+}
+
+.effect[bgcolor-number='13'] {
+	background-color: #C397D8 !important; /* Tomorrow Night Bright: Purple */
+}
+
+.effect[bgcolor-number='14'] {
+	background-color: #8E908C !important; /* Tomorrow: Comment */
+}
+
+.effect[bgcolor-number='15'] {
+	background-color: #C5C8C6 !important; /* Tomorrow Night: Foreground */
+}
+
+/* @end */
+
+/* @end */
+
 /*
 	vim: set foldmethod=marker:
 	vim: set foldmarker=@group,@end:
