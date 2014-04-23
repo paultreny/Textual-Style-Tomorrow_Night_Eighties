@@ -303,15 +303,22 @@ div[ltype*=action] .sender:after {
 
 .line[ltype*=join],
 .line[ltype*=part],
-.line[ltype*=kick],
 .line[ltype*=quit],
-.line[ltype*=kill],
 .line[ltype*=nick],
 .line[ltype*=mode],
 .line[ltype*=topic],
 .line[ltype*=website] {
-	color: #aaa;
+	color: #C5C8C6; /* Tomorrow Night: Foreground */
 }
+
+/* Slightly more interesting events */
+.line[ltype*=kick],
+.line[ltype*=kill],
+.line[ltype*=mode][command=mode] {
+	color: #8E908C; /* Tomorrow: Comment */
+}
+
+/* @group Event Indicators */
 
 div[ltype*=join] .message:before {
 	content: "→";
@@ -329,6 +336,8 @@ div[ltype*=nick] .message:before {
 	content:"◦";
 	color: #3E999F; /* Tomorrow: Aqua */
 }
+
+/* @end */
 
 /* @end */
 
