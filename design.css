@@ -1,3 +1,8 @@
+/* Colors taken from the Tomorrow and base16 themes:
+ * https://github.com/ChrisKempson/Tomorrow-Theme
+ * https://github.com/chriskempson/base16
+ */
+
 /* Basic Body Structure */
 
 * {
@@ -402,155 +407,155 @@ body div[ltype*=privmsg] .sender[mtype*=myself] {
 
 body .sender[mtype*=normal][colornumber='0'],
 body .inline_nickname[colornumber='0'] {
-	color: #0080ff;
+	color: #C82829; /* Tomorrow: Red */
 }
 
 body .sender[mtype*=normal][colornumber='1'],
 body .inline_nickname[colornumber='1'] {
-	color: #059005;
+	color: #F5871F; /* Tomorrow: Orange */
 }
 
 body .sender[mtype*=normal][colornumber='2'],
 body .inline_nickname[colornumber='2'] {
-	color: #a80054;
+	color: #EAB700; /* Tomorrow: Yellow */
 }
 
 body .sender[mtype*=normal][colornumber='3'],
 body .inline_nickname[colornumber='3'] {
-	color: #9b0db1;
+	color: #718C00; /* Tomorrow: Green */
 }
 
 body .sender[mtype*=normal][colornumber='4'],
 body .inline_nickname[colornumber='4'] {
-	color: #108860;
+	color: #3E999F; /* Tomorrow: Aqua */
 }
 
 body .sender[mtype*=normal][colornumber='5'],
 body .inline_nickname[colornumber='5'] {
-	color: #7F4FFF;
+	color: #8959A8; /* Tomorrow: Purple */
 }
 
 body .sender[mtype*=normal][colornumber='6'],
 body .inline_nickname[colornumber='6'] {
-	color: #58701a;
+	color: #F2777A; /* Tomorrow Night Eighties: Red */
 }
 
 body .sender[mtype*=normal][colornumber='7'],
 body .inline_nickname[colornumber='7'] {
-	color: #620a8e;
+	color: #F99157; /* Tomorrow Night Eighties: Orange */
 }
 
 body .sender[mtype*=normal][colornumber='8'],
 body .inline_nickname[colornumber='8'] {
-	color: #BB0008;
+	color: #FFCC66; /* Tomorrow Night Eighties: Yellow */
 }
 
 body .sender[mtype*=normal][colornumber='9'],
 body .inline_nickname[colornumber='9'] {
-	color: #44345f;
+	color: #99CC99; /* Tomorrow Night Eighties: Green */
 }
 
 body .sender[mtype*=normal][colornumber='10'],
 body .inline_nickname[colornumber='10'] {
-	color: #2f5353;
+	color: #66CCCC; /* Tomorrow Night Eighties: Aqua */
 }
 
 body .sender[mtype*=normal][colornumber='11'],
 body .inline_nickname[colornumber='11'] {
-	color: #904000;
+	color: #CC99CC; /* Tomorrow Night Eighties: Purple */
 }
 
 body .sender[mtype*=normal][colornumber='12'],
 body .inline_nickname[colornumber='12'] {
-	color: #808000;
+	color: #D54E53; /* Tomorrow Night Bright: Red */
 }
 
 body .sender[mtype*=normal][colornumber='13'],
 body .inline_nickname[colornumber='13'] {
-	color: #57797e;
+	color: #E78C45; /* Tomorrow Night Bright: Orange */
 }
 
 body .sender[mtype*=normal][colornumber='14'],
 body .inline_nickname[colornumber='14'] {
-	color: #3333dd;
+	color: #E7C547; /* Tomorrow Night Bright: Yellow */
 }
 
 body .sender[mtype*=normal][colornumber='15'],
 body .inline_nickname[colornumber='15'] {
-	color: #5f4d22;
+	color: #B9CA4A; /* Tomorrow Night Bright: Green */
 }
 
 body .sender[mtype*=normal][colornumber='16'],
 body .inline_nickname[colornumber='16'] {
-	color: #706616;
+	color: #70C0B1; /* Tomorrow Night Bright: Aqua */
 }
 
 body .sender[mtype*=normal][colornumber='17'],
 body .inline_nickname[colornumber='17'] {
-	color: #46799c;
+	color: #C397D8; /* Tomorrow Night Bright: Purple */
 }
 
 body .sender[mtype*=normal][colornumber='18'],
 body .inline_nickname[colornumber='18'] {
-	color: #80372e;
+	color: #AC4142; /* base16: Red */
 }
 
 body .sender[mtype*=normal][colornumber='19'],
 body .inline_nickname[colornumber='19'] {
-	color: #8F478E;
+	color: #D28445; /* base16: Orange */
 }
 
 body .sender[mtype*=normal][colornumber='20'],
 body .inline_nickname[colornumber='20'] {
-	color: #5b9e4c;
+	color: #F4Bf75; /* base16: Yellow */
 }
 
 body .sender[mtype*=normal][colornumber='21'],
 body .inline_nickname[colornumber='21'] {
-	color: #13826c;
+	color: #90A959; /* base16: Green */
 }
 
 body .sender[mtype*=normal][colornumber='22'],
 body .inline_nickname[colornumber='22'] {
-	color: #b13637;
+	color: #75B5AA; /* base16: Aqua */
 }
 
 body .sender[mtype*=normal][colornumber='23'],
 body .inline_nickname[colornumber='23'] {
-	color: #e45d59;
+	color: #AA750F; /* base16: Purple */
 }
 
 body .sender[mtype*=normal][colornumber='24'],
 body .inline_nickname[colornumber='24'] {
-	color: #1b51ae;
+	color: #CC6666; /* Tomorrow Night: Red */
 }
 
 body .sender[mtype*=normal][colornumber='25'],
 body .inline_nickname[colornumber='25'] {
-	color: #4855ac;
+	color: #DE935F; /* Tomorrow Night: Orange */
 }
 
 body .sender[mtype*=normal][colornumber='26'],
 body .inline_nickname[colornumber='26'] {
-	color: #7f1d86;
+	color: #F0C674; /* Tomorrow Night: Yellow */
 }
 
 body .sender[mtype*=normal][colornumber='27'],
 body .inline_nickname[colornumber='27'] {
-	color: #73643f;
+	color: #B5BD68; /* Tomorrow Night: Green */
 }
 
 body .sender[mtype*=normal][colornumber='28'],
 body .inline_nickname[colornumber='28'] {
-	color: #0b9578;
+	color: #8ABEB7; /* Tomorrow Night: Aqua */
 }
 
 body .sender[mtype*=normal][colornumber='29'],
 body .inline_nickname[colornumber='29'] {
-	color: #569c96;
+	color: #B294BB; /* Tomorrow Night: Purple */
 }
 
 body .sender[mtype*=normal][colornumber='30'],
 body .inline_nickname[colornumber='30'] {
-	color: #08465f;
+	color: #BBDAFF; /* Tomorrow Night Blue: Blue */
 }
