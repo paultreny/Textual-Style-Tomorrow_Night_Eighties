@@ -342,19 +342,19 @@ div[ltype*=action] .sender:after {
 
 div[ltype*=join] .message:before {
 	content: "→";
-	color: #0c0;
+	color: #718C00; /* Tomorrow: Green */
 }
 
 div[ltype*=kick] .message:before,
 div[ltype*=part] .message:before,
 div[ltype*=quit] .message:before {
 	content: "←";
-	color: #e00;
+	color: #C82829; /* Tomorrow: Red */
 }
 
 div[ltype*=nick] .message:before {
 	content:"◦";
-	color: #0c0;
+	color: #3E999F; /* Tomorrow: Aqua */
 }
 
 /* @end */
