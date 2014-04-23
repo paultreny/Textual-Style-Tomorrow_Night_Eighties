@@ -40,7 +40,7 @@ body[viewtype=channel] div#body_home {
 }
 
 .line {
-	margin-top: -1px;
+	padding: 2px 5px 2px 5px;
 }
 
 body[dir=rtl] .sender {
@@ -181,7 +181,6 @@ div[id=mark] {
 	z-index: 191;
 	background: #fcc;
 	position: relative;
-	padding: 2px 5px 2px 5px;
 	border-top: 1px solid #f77;
 	border-bottom: 1px solid #f77;
 }
@@ -230,7 +229,6 @@ div[ltype*=notice] .sender {
 /* @group PRIVMSG */
 
 .line[ltype*=privmsg][highlight=false] {
-	padding: 2px 5px 2px 5px;
 	border-top: 1px solid transparent;
 	border-bottom: 1px solid transparent;
 	background-color: none;
@@ -241,7 +239,6 @@ div[ltype*=notice] .sender {
 	z-index: 191;
 	position: relative;
 	font-weight: normal;
-	padding: 2px 5px 2px 5px;
 	border-top: 1px solid #F6E73F;
 	border-bottom: 1px solid #F6E73F;
 	background-color: #FAF4AF !important;
@@ -265,7 +262,6 @@ div[ltype*=privmsg] .sender {
 /* @group ACTION */
 
 .line[ltype*=action] {
-	padding: 2px 5px 2px 5px;
 	border-top: 1px solid transparent;
 	border-bottom: 1px solid transparent;
 	background-color: none;
@@ -312,7 +308,6 @@ div[ltype*=action] .sender:after {
 	z-index: 190;
 	background: #eee;
 	position: relative;
-	padding: 2px 5px 2px 5px;
 	border-top: 1px solid #ddd;
 	border-bottom: 1px solid #ddd;
 }
@@ -368,7 +363,6 @@ div[ltype*=action] .sender:after {
 .line[ltype*=mode],
 .line[ltype*=topic],
 .line[ltype*=website] {
-	padding: 3px 5px 3px 5px;
 	color: #aaa;
 }
 
