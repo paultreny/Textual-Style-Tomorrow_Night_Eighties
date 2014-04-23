@@ -3,7 +3,7 @@
  * https://github.com/chriskempson/base16
  */
 
-/* Basic Body Structure */
+/* @group Basic Body Structure */
 
 * {
 	margin: 0;
@@ -47,7 +47,7 @@ body[dir=rtl] .sender {
 	display: inline-block;
 }
 
-/* Loading Screen */
+/* @end */
 
 body div#loading_screen {
 	position:absolute;
@@ -67,7 +67,7 @@ body div#loading_screen {
 	-webkit-transition: opacity 0.8s linear;
 }
 
-/* Time */
+/* @group Time */
 
 body[dir=ltr] .time {
 	color: #aaa;
@@ -81,7 +81,7 @@ body[dir=rtl] .time {
 	display: inline-block;
 }
 
-/* Encryption Lock */
+/* @end */
 
 .encryptionLock img {
 	float: right;
@@ -92,7 +92,7 @@ body[dir=rtl] .time {
 	padding-left: 10px;
 }
 
-/* Links */
+/* @group Links */
 
 a {
 	color: #00e;
@@ -106,7 +106,9 @@ a:hover {
 	border-color: #0080FF;
 }
 
-/* Topic Bar */
+/* @end */
+
+/* @group Topic Bar */
 
 #topic_bar {
 	top: 0;
@@ -143,7 +145,9 @@ a:hover {
 	text-shadow: 1px 1px rgba(83, 86, 94, 0.7);
 }
 
-/* Images */
+/* @end */
+
+/* @group Images */
 
 body a img {
 	border: 0;
@@ -155,7 +159,9 @@ body img {
 	margin: 15px 15px 12px 15px;
 }
 
-/* Remember Line */
+/* @end */
+
+/* @group Separating History */
 
 div[id=mark] {
 	position: relative;
@@ -166,14 +172,14 @@ div[id=mark] {
 	-webkit-transition: 0.2s linear;
 }
 
-/* Historic Line */
-
 .historic
 {
 	opacity: 0.6;
 }
 
-/* NOTICE/CTCP/WALLOPS */
+/* @end */
+
+/* @group NOTICE / CTCP / WALLOPS */
 
 body div.line[ltype*=ctcp],
 body div.line[ltype*=notice],
@@ -192,7 +198,9 @@ body div[ltype*=notice] .sender {
 	font-weight: 700;
 }
 
-/* SELECTED USER MESSAGES */
+/* @end */
+
+/* @group Selected User */
 
 .sender {
 	cursor: pointer;
@@ -224,7 +232,9 @@ body div.line.selectedUser[highlight=false] {
 	background-color: rgba(246, 70, 255, 0.2) !important;
 }
 
-/* PRIVMSG */
+/* @end */
+
+/* @group PRIVMSG */
 
 body div.line[ltype*=privmsg][highlight=false] {
 	padding: 2px 5px 2px 5px;
@@ -257,7 +267,9 @@ body div[ltype*=privmsg] .sender {
 	white-space: pre-wrap;
 }
 
-/* ACTION */
+/* @end */
+
+/* @group ACTION */
 
 body div.line[ltype*=action] {
 	padding: 2px 5px 2px 5px;
@@ -297,7 +309,9 @@ body[dir=rtl] div[ltype*=action] .sender:after {
 	content: "";
 }
 
-/* DEBUG/INVITE */
+/* @end */
+
+/* @group DEBUG / INVITE */
 
 body div.line[ltype*=invite],
 body div.line[ltype*=debug],
@@ -312,9 +326,13 @@ body div.line[ltype*=dccfiletransfer] {
 	border-bottom: 1px solid #ddd;
 }
 
-/* Message of the Day (MOTD) */
-/* 720, 721, 722 are used by ShadowIRCd for Oper MOTD. */
-/* 372, 375, 376 are normal MOTD shared by several IRCds. */
+/* @end */
+
+/* @group Message of the Day (MOTD)
+ *
+ * 720, 721, 722 are used by ShadowIRCd for Oper MOTD.
+ * 372, 375, 376 are normal MOTD shared by several IRCds.
+ */
 
 body div.line[command="372"],
 body div.line[command="721"] {
@@ -346,7 +364,9 @@ body div.line[command="722"] .message {
 	font-family: "Menlo" !important;
 }
 
-/* GENERAL EVENT */
+/* @end */
+
+/* @group General Events */
 
 body div.line[ltype*=join],
 body div.line[ltype*=part],
@@ -395,7 +415,7 @@ body[dir=rtl] div[ltype*=nick] .message:before {
 	color: #0c0;
 }
 
-/* Nickname Colors */
+/* @end */
 
 body .inline_nickname {
 	font-weight: 700;
@@ -404,6 +424,8 @@ body .inline_nickname {
 body div[ltype*=privmsg] .sender[mtype*=myself] {
 	color: #ea0d68;
 }
+
+/* @group Nickname Colors */
 
 body .sender[mtype*=normal][colornumber='0'],
 body .inline_nickname[colornumber='0'] {
@@ -559,3 +581,11 @@ body .sender[mtype*=normal][colornumber='30'],
 body .inline_nickname[colornumber='30'] {
 	color: #BBDAFF; /* Tomorrow Night Blue: Blue */
 }
+
+/* @end */
+
+/*
+	vim: set foldmethod=marker:
+	vim: set foldmarker=@group,@end:
+	vim: set nofoldenable:
+*/
