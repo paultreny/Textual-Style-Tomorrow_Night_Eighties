@@ -284,21 +284,19 @@ body div[ltype*=action][mtype*=myself] .message {
 	color: #B52CF6;
 }
 
-body[dir=ltr] div[ltype*=action] .sender:before {
+div[ltype*=action] .sender:before {
 	content: "\2022";
+}
+
+body[dir=ltr] div[ltype*=action] .sender:before {
 	margin-right: 0.4em;
 }
 
-body[dir=ltr] div[ltype*=action] .sender:after {
-	content: "";
-}
-
 body[dir=rtl] div[ltype*=action] .sender:before {
-	content: "\2022";
 	margin-left: 0.4em;
 }
 
-body[dir=rtl] div[ltype*=action] .sender:after {
+div[ltype*=action] .sender:after {
 	content: "";
 }
 
@@ -374,36 +372,19 @@ body div.line[ltype*=website] {
 	color: #aaa;
 }
 
-body[dir=ltr] div[ltype*=join] .message:before {
+div[ltype*=join] .message:before {
 	content: "→";
 	color: #0c0;
 }
 
-body[dir=ltr] div[ltype*=kick] .message:before,
-body[dir=ltr] div[ltype*=part] .message:before,
-body[dir=ltr] div[ltype*=quit] .message:before {
+div[ltype*=kick] .message:before,
+div[ltype*=part] .message:before,
+div[ltype*=quit] .message:before {
 	content: "←";
 	color: #e00;
 }
 
-body[dir=ltr] div[ltype*=nick] .message:before {
-	content:"•";
-	color: #0c0;
-}
-
-body[dir=rtl] div[ltype*=join] .message:before {
-	content: "→";
-	color: #0c0;
-}
-
-body[dir=rtl] div[ltype*=kick] .message:before,
-body[dir=rtl] div[ltype*=part] .message:before,
-body[dir=rtl] div[ltype*=quit] .message:before {
-	content: "←";
-	color: #e00;
-}
-
-body[dir=rtl] div[ltype*=nick] .message:before {
+div[ltype*=nick] .message:before {
 	content:"•";
 	color: #0c0;
 }
