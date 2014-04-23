@@ -259,7 +259,7 @@ div[ltype*="action"] .message {
 }
 
 div[ltype*=action] .sender:before {
-	content: "\2022";
+	content: "•";
 }
 
 body[dir=ltr] div[ltype*=action] .sender:before {
