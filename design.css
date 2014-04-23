@@ -118,13 +118,11 @@ a:hover {
 	right: 0;
 	z-index: 400;
 	opacity: 0; /* Set by JavaScript */
-	color: #FFFFFF;
+	color: #718C00; /* Tomorrow Night Blue: Green */
 	position: fixed;
 	padding: 2px 0.5em 3px;
-	box-shadow: 0 1px 5px #777;
-	border-bottom: 1px solid #61778F;
-	text-shadow: 1px 1px rgba(83, 86, 94, 0.7);
-	background: -webkit-linear-gradient(top, #A2B0D0 0%, #7385AD 100%);
+	border-bottom: 1px solid #D1F1A9; /* Tomorrow Night Bright: Green */
+	background-color: rgba(209, 241, 169, 0.95); /* Tomorrow Night Blue: Green 95% */
 	-webkit-transition: opacity 0.8s linear;
 	overflow: hidden;
 	white-space: nowrap;
@@ -138,13 +136,6 @@ a:hover {
 #topic_bar:hover {
 	overflow: visible;
 	white-space: normal;
-}
-
-#topic_bar a,
-#topic_bar span.channel {
-	color: #FFFFFF;
-	border-color: #FFFFFF;
-	text-shadow: 1px 1px rgba(83, 86, 94, 0.7);
 }
 
 /* @end */
