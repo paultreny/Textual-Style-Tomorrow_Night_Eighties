@@ -161,7 +161,7 @@ div[id=mark] {
 	z-index: 295;
 	margin-top: -1px;
 	border-bottom: 1px dashed;
-	border-color: #444;
+	border-color: #C82829; /* Tomorrow: Red */
 	-webkit-transition: 0.2s linear;
 }
 
