@@ -20,7 +20,7 @@ body {
 	overflow: hidden;
 	overflow-y: visible;
 	background-color: #FFFFFF; /* Tomorrow: Background */
-	font-family: "Lucida Grande";
+	font-family: "EspressoMono-Regular", "Menlo";
 }
 
 #body_home {
@@ -321,7 +321,7 @@ div[ltype*=action] .sender:after {
 .line[command="720"] .message,
 .line[command="721"] .message,
 .line[command="722"] .message {
-	font-family: "Menlo" !important;
+	font-family: "EspressoMono-Regular", "Menlo" !important;
 }
 
 /* @end */
