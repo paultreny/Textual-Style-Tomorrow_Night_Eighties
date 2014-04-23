@@ -201,21 +201,11 @@ div[ltype*=notice] .sender {
 	transition: background-color 0.5s;
 }
 
-.line[ltype*=privmsg] .time:not(.selectedUser),
-.line[ltype*=action] .time:not(.selectedUser) {
-	transition: color 0.5s;
-}
-
-.line.selectedUser[highlight=false] .time {
-	transition: color 0.5s ease-in;
-	color: #000;
-}
-
 .line.selectedUser[highlight=false] {
 	transition: background-color 0.5s;
 	z-index: 190;
 	position: relative;
-	background-color: rgba(246, 70, 255, 0.2) !important;
+	background-color: rgba(255, 197, 143, 0.25) !important; /* Tomorrow Night Blue: Orange 25% */
 }
 
 /* @end */
