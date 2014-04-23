@@ -69,14 +69,12 @@ body div#loading_screen {
 
 /* @group Time */
 
-body[dir=ltr] .time {
-	color: #aaa;
+.time {
+	color: #C5C8C6; /* Tomorrow Night: Foreground */
 	white-space: nowrap;
 }
 
 body[dir=rtl] .time {
-	color: #aaa;
-	white-space: nowrap;
 	padding-left: 0.4em;
 	display: inline-block;
 }
