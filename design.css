@@ -65,13 +65,14 @@ body[dir=rtl] .sender {
 	width: 300px;
 	height: 21px;
 	font-size: 18px;
-	background-color: #f3f3f3;
-	border: 1px solid #d7d7d7;
+	background: #EFEFEF; /* Tomorrow: Current Line */
+	border: 1px solid #D6D6D6; /* Tomorrow: Selection */
 	border-radius: 5px;
 	padding: 5px;
 	padding-left: 10px;
 	opacity: 1; /* Set by JavaScript */
 	-webkit-transition: opacity 0.8s linear;
+	text-align: center;
 }
 
 .encryptionLock img {
