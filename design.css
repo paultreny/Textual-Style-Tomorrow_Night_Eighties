@@ -256,9 +256,9 @@ div[ltype*=action] .sender:after {
 .line[ltype*=debug],
 .line[ltype*=rawhtml],
 .line[ltype*=dccfiletransfer] {
-	color: #777;
+	color: #C5C8C6; /* Tomorrow Night: Foreground */
 	z-index: 190;
-	background-color: #eee;
+	background: rgba(214, 214, 214, 0.25); /* Tomorrow: Selection 25% */
 	position: relative;
 }
 
