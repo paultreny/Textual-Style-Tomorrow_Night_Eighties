@@ -224,14 +224,6 @@ div[ltype*=notice] .sender {
 	background-color: #FAF4AF !important;
 }
 
-div[ltype*="privmsg"] .message {
-	color: #000;
-}
-
-div[ltype*=privmsg][mtype*=myself] .message {
-	color: #000;
-}
-
 div[ltype*=privmsg] .sender {
 	white-space: pre-wrap;
 }
@@ -242,10 +234,6 @@ div[ltype*=privmsg] .sender {
 
 .line[ltype*=action] {
 	background-color: none;
-}
-
-div[ltype*="action"] .message {
-	color: #000;
 }
 
 div[ltype*=action] .sender:before {
