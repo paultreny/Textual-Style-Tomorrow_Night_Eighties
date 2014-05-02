@@ -32,4 +32,6 @@ Then just open the Preferences of Textual (`⌘,`) go to *Styles* and select **T
 
 * [Tomorrow](https://github.com/FroZnShiva/Textual-Style-Tomorrow)
 * [Tomorrow Night](https://github.com/FroZnShiva/Textual-Style-Tomorrow_Night)
+* [Tomorrow Night Blue](https://github.com/FroZnShiva/Textual-Style-Tomorrow_Night_Blue)
+* [Tomorrow Night Bright](https://github.com/FroZnShiva/Textual-Style-Tomorrow_Night_Bright)
 * [Tomorrow Night Eighties](https://github.com/FroZnShiva/Textual-Style-Tomorrow_Night_Eighties)
