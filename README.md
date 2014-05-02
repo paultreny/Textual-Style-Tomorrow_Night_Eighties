@@ -1,4 +1,4 @@
-# Textual Style Tomorrow
+# Textual Style Tomorrow Night
 
 ## About
 
@@ -13,7 +13,9 @@ The main intention of this style is to emphasise important / interesting lines a
 4. Highlights are red
 5. Kicks, Kills, and mode changes are better visible than Joins, Quits, Parts, and other information fe. channel information displayed when joining
 
-![Preview](https://github.com/FroZnShiva/Textual-Style-Tomorrow/raw/master/preview.png)
+<!---
+![Preview](https://github.com/FroZnShiva/Textual-Style-Tomorrow_Night/raw/master/preview.png)
+--->
 
 ## Installation
 
@@ -21,7 +23,11 @@ Install the files according to the [Styles Documentation of Textual](http://www.
 
 ```sh
 cd ~/Library/Containers/com.codeux.irc.textual/Data/Library/Application\ Support/Textual\ IRC/Styles/
-git clone https://github.com/FroZnShiva/Textual-Style-Tomorrow.git Tomorrow
+git clone https://github.com/FroZnShiva/Textual-Style-Tomorrow_Night.git Tomorrow\ Night
 ```
 
-Then just open the Preferences of Textual (`⌘,`) go to *Styles* and select **Tomorrow**.
+Then just open the Preferences of Textual (`⌘,`) go to *Styles* and select **Tomorrow Night**.
+
+## Color Variations
+
+* [Tomorrow](https://github.com/FroZnShiva/Textual-Style-Tomorrow)
