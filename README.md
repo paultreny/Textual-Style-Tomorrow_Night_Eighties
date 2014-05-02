@@ -13,9 +13,7 @@ The main intention of this style is to emphasise important / interesting lines a
 4. Highlights are red
 5. Kicks, Kills, and mode changes are better visible than Joins, Quits, Parts, and other information fe. channel information displayed when joining
 
-<!---
 ![Preview](https://github.com/FroZnShiva/Textual-Style-Tomorrow_Night_Eighties/raw/master/preview.png)
---->
 
 ## Installation
 
