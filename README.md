@@ -1,4 +1,4 @@
-# Textual Style Tomorrow Night
+# Textual Style Tomorrow Night Eighties
 
 ## About
 
@@ -14,7 +14,7 @@ The main intention of this style is to emphasise important / interesting lines a
 5. Kicks, Kills, and mode changes are better visible than Joins, Quits, Parts, and other information fe. channel information displayed when joining
 
 <!---
-![Preview](https://github.com/FroZnShiva/Textual-Style-Tomorrow_Night/raw/master/preview.png)
+![Preview](https://github.com/FroZnShiva/Textual-Style-Tomorrow_Night_Eighties/raw/master/preview.png)
 --->
 
 ## Installation
@@ -23,12 +23,13 @@ Install the files according to the [Styles Documentation of Textual](http://www.
 
 ```sh
 cd ~/Library/Containers/com.codeux.irc.textual/Data/Library/Application\ Support/Textual\ IRC/Styles/
-git clone https://github.com/FroZnShiva/Textual-Style-Tomorrow_Night.git Tomorrow\ Night
+git clone https://github.com/FroZnShiva/Textual-Style-Tomorrow_Night_Eighties.git Tomorrow\ Night\ Eighties
 ```
 
-Then just open the Preferences of Textual (`⌘,`) go to *Styles* and select **Tomorrow Night**.
+Then just open the Preferences of Textual (`⌘,`) go to *Styles* and select **Tomorrow Night Eighties**.
 
 ## Color Variations
 
 * [Tomorrow](https://github.com/FroZnShiva/Textual-Style-Tomorrow)
 * [Tomorrow Night](https://github.com/FroZnShiva/Textual-Style-Tomorrow_Night)
+* [Tomorrow Night Eighties](https://github.com/FroZnShiva/Textual-Style-Tomorrow_Night_Eighties)
